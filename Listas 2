@@ -7,8 +7,8 @@
 </head>
 <body>
 
-        <ol>
-            <li>Matemáticas</li>
+    <ol>
+        <li>Matemáticas</li>
             <li>Inglés</li>
             <li>Ciencias
                 <ol>
@@ -18,20 +18,20 @@
             </li>
             <li>Comunicaciones</li>
             <li>Dibujo
-                <ul>
+                <ol>
                     <li>
-                        <a href="https://www.pexels.com/es-es/buscar/dibujo%20tecnico/" target="_blank">
+                        <a href="https://t3.ftcdn.net/jpg/07/03/64/10/240_F_703641096_PcKt4IzB5U029zlvVCJzrc0tXAdwj8gF.jpg" target="_blank">
                             Técnico <br>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.pexels.com/es-es/buscar/dibujo%20artistico/" target="_blank">
+                        <a href="https://t4.ftcdn.net/jpg/08/31/16/09/360_F_831160995_G5W2PkYI7boIea7fJMOL9Jbi2yw6vsYr.webp" target="_blank">
                             Artístico <br>
                         </a>
                     </li>
-                </ul>
-            </li>
-        </ol>
+                </ol>
+         </li>
+    </ol>
     
 </body>
 </html>
