@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <center>
+        <h2> FORMULARIO DE REGISTRO</h2>
+        <form action="#" method="post">
+            <label for="telefono2">Identificación:</label><br>
+            <input type="tel" id="telefono2" name="telefono"><br><br>
+
+            <label for="documento2">Tipo de Documento:</label><br>
+            <select id="documento2" name="tipo_documento">
+                <option value="cedula">Cédula</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select><br><br>
+       
+            <label for="nombre2">Nombre Completo:</label><br>
+            <input type="text" id="nombre2" name="nombre"><br><br>
+           
+            <label>Sexo:</label><br>
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">Femenino</label><br>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label><br><br>
+     
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </center>
+
+
+
+</body>
+</html>
