@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ol>
+            <li>Matemáticas</li>
+            <li>Inglés</li>
+            <li>Ciencias
+                <ol>
+                  <li>Sociales</li>
+                  <li>Naturales</li>
+                </ol>
+            </li>
+            <li>Comunicaciones</li>
+            <li>Dibujo
+                <ul>
+                    <li>
+                        <a href="https://www.pexels.com/es-es/buscar/dibujo%20tecnico/" target="_blank">
+                            Técnico <br>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pexels.com/es-es/buscar/dibujo%20artistico/" target="_blank">
+                            Artístico <br>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
