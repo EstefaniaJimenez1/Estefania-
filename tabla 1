@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid rgb(235, 60, 206);
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Elemento</th>
+    <th>Descripción</th>
+    
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>Es el contenedor para todos los elementos de un documento </td>
+    </tr>
+  <tr>
+    <td>Head</td>
+    <td>Contiene el titulo e informacion relacional acerca del documento</td>
+  </tr>
+ <tr>
+    <td>Title</td>
+    <td>Provee un titulo para el documento</td>
+  </tr>
+  <tr>
+    <td>Body</td>
+    <td>es la seccion donde se encuentra el contenido del documento</td>
+  </tr>
+  <tr>
+    <td>H1-H6</td>
+    <td>representa un encabezado</td>
+  </tr>
+ <tr>
+    <td>p</td>
+    <td>Representa un parrafo</td>
+ </tr>
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
