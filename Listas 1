@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+
         <ol>
             <li>Matemáticas</li>
             <li>Inglés</li>
@@ -18,7 +18,7 @@
             </li>
             <li>Comunicaciones</li>
             <li>Dibujo
-                <ul>
+                <ol>
                     <li>
                         <a href="https://www.pexels.com/es-es/buscar/dibujo%20tecnico/" target="_blank">
                             Técnico <br>
@@ -29,9 +29,8 @@
                             Artístico <br>
                         </a>
                     </li>
-                </ul>
+                </ol>
             </li>
         </ol>
-    </div>
 </body>
 </html>
