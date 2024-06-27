@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid rgb(235, 60, 206);
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Hoy</th>
+    <th>Mañana</th>
+    <th>Miercoles</th>
+    
+  </tr>
+  <tr>
+    <td>Soleado</td>
+    <td>Mayormente soleado </td>
+    <td>Parcialmente nublado</td>
+    </tr>
+  <tr>
+    <td>19° C</td>
+    <td>17°C</td>
+    <td>12°C </td>
+  </tr>
+ <tr>
+    <td>E 13 km/h</td>
+    <td>E 11 km/h</td>
+    <td>S 16 Km</td>
+  </tr>
+
+</table>
+
+
+
+</body>
+</html>
