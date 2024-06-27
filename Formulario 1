@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h2>HTML Formularios</h2>
+
+<form action="/action_page.php">
+       
+  <label for="fname"> nombre </label><br>
+  <input type="text" id="fname" name="fname" value="Nombre"><br>
+  <label for="fname"> telefono </label><br>
+  <input type="text" id="ftelefono" name="ftelefono" value="telefono"><br>
+  <label for="fname">correo electronico </label><br>
+  <input type="text" id="fcorreo" name="fcorreo" value="correo electronico"><br>
+  <label for="birthday">Birthday:</label><br>
+  <input type="date" id="birthday" name="birthday">
+<center>
+  <label for="cars">Tipo de usuario:</label>
+  <center>
+  <select id="cars" name="cars">
+    <option value="volvo">Administrador </option>
+    <option value="saab">Usuario</option>
+    <option value="fiat" selected>Visitante</option>
+  </select>
+ </center>
+</center>
+<h4>Mensaje</h4>
+<form action="/action_page.php">
+    <textarea name="message" style="width:100px; height:100px;">observaciones</textarea>
+    <br>
+
+  <input type="file" id="myfile" name="myfile"><br>
+  <button type="submit">Enviar</button>
+  <button type="reset">Borrar</button>
+</form> 
+
+
+
+</center>
+</body>
+</html>
