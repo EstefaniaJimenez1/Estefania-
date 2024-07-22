@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="mostrarfecha()">mostrar</button>
+    <script>
+        function mostrarfecha(){
+            let hoy = new date();
+            let fecha = hoy.toLocaLeDateString("es-ES");
+            console.log("Hoy estamos a: " + fecha);
+        }
+       let intervalo = setInterval(mostrarfecha,1000 * 1);
+        
+    </script>
+</body>
+</html>
+
+

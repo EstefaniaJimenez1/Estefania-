@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temporizador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="number" id="tiempoelegido">
+    <button onclick="comenzarTiempo()">Alarma</button>
+
+    <script>
+        function comenzarTiempo(){
+            setTimeout(tiempocumplido,1000 * 5)
+        }
+        function tiempocumplido(){
+            alert("Se acabo el tiempo")
+        }
+    </script>
+</body>
+</html>

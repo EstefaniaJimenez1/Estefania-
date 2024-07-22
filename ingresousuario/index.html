@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ingreso de usuario</title>
+    <link rel="stylesheet" href="estile.css">
+</head>
+<body>
+    <h1>Ingresa tu nombre</h1>
+    <input type="text" id="nombreUsuario">
+    <button onclick="mostrarTexto()">Saludar</button>
+
+    <script>
+        function mostrarTexto() {
+          
+            var nombre = document.getElementById("nombreUsuario").value;
+
+        
+            alert("Hola " + nombre);
+        }
+    </script>
+</body>
+</html>

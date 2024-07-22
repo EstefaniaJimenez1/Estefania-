@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 id="currentTime"></h1>
+    <input type="number" id="tiempoelegido">
+    <button onclick="comenzarTiempo()">Alarma</button>
+    <h1 id="correntTime" style="color: red;"></h1>
+    <audio id="myAudio" src="audio/alarma.mpeg" type="audio/mp3"></audio>
+    <script>
+        let elementoSegundos = document.getElementById("tiempoelegido");
+        let elementoTextoalarma = document.getElementById("currentTime");
+        let audio = document.getElementById("myAudio");
+
+       
+        
+
+        function comenzarTiempo() {
+            setTimeout(tiempoCumplido, 1000 * elementoSegundos.value);
+        }
+
+        function tiempoCumplido() {
+            elementoTextoalarma.style.color = "green";
+            audio.play();
+        }
+
+        function currentTime() {
+            let date = new Date();
+            let hour = date.getHours();
+            let minute = date.getMinutes();
+            let second = date.getSeconds();
+            let time = `${hour}:${minute}:${second}`;
+            document.getElementById("currentTime").innerHTML = `La hora actual es: ${time}`;
+
+        }
+        setInterval(currentTime, 1000);
+
+        
+        currentTime();
+    </script>
+</body>
+</html>

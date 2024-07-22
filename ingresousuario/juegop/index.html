@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responde tus preguntas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Responde tus preguntas</h1>
+        <div id="timer">Tiempo restante: <span id="countdown">30</span> segundos</div>
+        <form id="quiz-form">
+            <div id="questions-container">
+                <!-- Aquí se generarán las preguntas dinámicamente -->
+            </div>
+            <button type="button" id="finish">Terminado</button>
+            <button type="button" id="retry">Volver a intentar</button>
+        </form>
+    </div>
+
+    <audio id="alarmAudio" src="audio/sonido.mpeg"></audio> <!-- Elemento de audio para la alarma -->
+    <script src="script.js"></script>
+</body>
+</html>

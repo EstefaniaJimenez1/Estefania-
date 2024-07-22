@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responde tus preguntas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Responde tus preguntas</h1>
+        <div id="timer">Tiempo restante: <span id="countdown">60</span> segundos</div>
+        <div id="question-container">
+            <p id="question"></p>
+            <input type="text" id="answer" placeholder="Escribe tu respuesta">
+            <button id="submit">Enviar respuesta</button>
+        </div>
+        <div id="result"></div>
+        <div id="buttons">
+            <button id="finish">Terminado</button>
+            <button id="retry">Volver a intentar</button>
+        </div>
+    </div>
+
+    <audio id="alarmAudio" src="audio/sonido.mpeg"></audio> 
+    <script src="jueguis.js"></script>
+</body>
+</html>
+
